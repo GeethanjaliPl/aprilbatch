@@ -29,7 +29,7 @@ jobs:
       uses: sonarsource/sonarcloud-github-action@master
       with:
         args: >
-          -Dsonar.projectKey=aprildemo
+          -Dsonar.projectKey=jatinbhalla1991_aprildemo
           -Dsonar.organization=jatinbhalla1991
           -Dsonar.host.url=https://sonarcloud.io
           -Dsonar.login=${{ secrets.SONAR_TOKEN }}
